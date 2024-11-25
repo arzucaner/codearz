@@ -1,0 +1,38 @@
+.footer {
+    background-color: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+    color: #d4c5a6;
+  }
+  
+  .socialLinks {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .socialIcon {
+    color: #ffd966;
+    font-size: 24px;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .socialIcon:hover {
+    color: #ffb400;
+    transform: scale(1.2); 
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #d4c5a6;
+  }
+  

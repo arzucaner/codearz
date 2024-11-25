@@ -1,0 +1,80 @@
+.miniGame {
+    position: fixed;
+    bottom: -100px; 
+    left: 20px; 
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border: 2px solid #ffd966;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  
+    animation: riseAndFloat 5s ease-in-out infinite;
+  }
+  
+  .miniGame h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #ffd966;
+  }
+  
+  .miniGame .clueContainer {
+    margin: 10px 0;
+    max-height: 100px;
+    overflow-y: auto;
+  }
+  
+  .miniGame .clue {
+    animation: fadeIn 0.5s ease-in-out;
+    background-color: #ffd966;
+    color: #333;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  
+  .miniGame button {
+    margin: 5px;
+    padding: 7px 12px;
+    background-color: #ffd966;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .miniGame button:hover {
+    background-color: #d4c5a6;
+  }
+  
+  @keyframes riseAndFloat {
+    0% {
+      bottom: -100px; 
+      opacity: 0;
+    }
+    30% {
+      bottom: 20px; 
+      opacity: 1;
+    }
+    70% {
+      bottom: 20px; 
+      opacity: 1;
+    }
+    100% {
+      bottom: -100px; 
+      opacity: 0;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  

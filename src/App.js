@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
+import AboutMe from "./components/AboutMe/AboutMe";
+import Blog from "./components/Blog/Blog";
+import Products from "./components/Products/Products";
+import Projects from "./components/Projects/Projects";
+import OpenSource from "./components/OpenSource/OpenSource";
+import Speaking from "./components/Speaking/Speaking";
+import Footer from "./components/Footer/Footer"; 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Hero />} />
+          <Route path="/about" element={<AboutMe />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/opensource" element={<OpenSource />} />
+          <Route path="/speaking" element={<Speaking />} />
+        </Routes>
+        <Footer /> 
+      </div>
+    </Router>
   );
 }
 
 export default App;
+

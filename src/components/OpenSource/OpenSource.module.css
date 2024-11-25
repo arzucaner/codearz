@@ -1,0 +1,71 @@
+.openSource {
+  padding: 50px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #1e1e1e 25%, #333 75%);
+  color: #fff;
+}
+
+.openSource h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: #ffd966;
+}
+
+.openSourceContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.openSourceCard {
+  width: 450px;
+  height: 550px;
+  background-color: #2b2b2b;
+  border: 2px solid #ffd966;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.openSourceImage {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.openSourceContent {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.openSourceTitle {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffd966;
+  margin: 0 0 20px 0;
+}
+
+.openSourceDescription {
+  font-size: 1.2rem;
+  color: #d4c5a6;
+  margin-bottom: 25px;
+}
+
+.openSourceLink {
+  display: inline-block;
+  color: #ffd966;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.openSourceLink:hover {
+  color: #d4c5a6;
+}
