@@ -2,34 +2,27 @@ import React from "react";
 import styles from "./AboutMe.module.css";
 
 function AboutMe() {
+  const notes = [
+    "2015: Wrote my first line of code.",
+    "2017: Completed my first internship.",
+    "2018: Built my first web application.",
+    "2020: Contributed to open-source projects.",
+    "2021: Started mentoring junior developers.",
+    "2022: Published my first technical article.",
+    "2023: Spoke at international conferences.",
+  ];
+
   return (
-    <div className={styles.aboutMeContainer}>
-      {/* Shooting Stars */}
-      <div className={styles.shootingStarsContainer}>
-        <div className={styles.shootingStar}></div>
-        <div className={styles.shootingStar}></div>
-        <div className={styles.shootingStar}></div>
+    <div className={styles.aboutMeContainer}>     
+      <h1 className={styles.title}>Arzu's Desk</h1>
+     
+      <div className={styles.notesBoard}>
+        {notes.map((note, index) => (
+          <div key={index} className={styles.note}>
+            <p className={styles.noteText}>{note}</p>
+          </div>
+        ))}
       </div>
-
-      {/* Content */}
-      <h1 className={styles.title}>About Me</h1>
-      <p className={styles.description}>
-        I am a modern problem solver, just like Sherlock Holmes, but with code.
-        My journey began in 2015 when I wrote my first line of code, and since
-        then, I've been solving puzzles and building projects that matter.
-      </p>
-
-      <ul className={styles.timeline}>
-        <li className={styles.timelineItem}>
-          2015: First line of code written.
-        </li>
-        <li className={styles.timelineItem}>
-          2020: Contributed to open-source projects.
-        </li>
-        <li className={styles.timelineItem}>
-          2023: Started speaking at tech conferences.
-        </li>
-      </ul>
     </div>
   );
 }

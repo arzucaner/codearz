@@ -2,6 +2,7 @@ import React from "react";
 import Countdown from "../Countdown/Countdown";
 import MiniGame from "../MiniGame/MiniGame";
 import styles from "./Hero.module.css";
+import { FaSearch } from "react-icons/fa"; 
 
 function Hero() {
   return (
@@ -10,14 +11,19 @@ function Hero() {
       <div className={styles.shootingStar}></div>
       <div className={styles.shootingStar}></div>
 
-        <div className={styles.heroContent}>
-        <h1 className={styles.title}>Step into the Mind of a Modern Detective</h1>
+      <div className={styles.heroContent}>
+        <h1 className={styles.title}>
+          Enter Baker Street: The Mind of a Modern Detective
+          <span className={styles.magnifyingGlassWrapper}>
+            <FaSearch className={styles.magnifyingGlass} />
+          </span>
+        </h1>
         <p className={styles.subtitle}>
-          Decoding mysteries, one line of code at a time.
+          Solving mysteries in the digital age, one line of code at a time.
         </p>
       </div>
 
-       <div className={styles.extraContent}>
+      <div className={styles.extraContent}>
         <Countdown />
         <MiniGame />
       </div>

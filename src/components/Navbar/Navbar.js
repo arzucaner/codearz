@@ -7,13 +7,13 @@ function Navbar() {
     <nav className={styles.navbar}>
       <h1 className={styles.logo}>CodeArz</h1>
       <ul className={styles.navLinks}>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About Me</Link></li> 
-        <li><Link to="/blog">Blog</Link></li>
-        <li><Link to="/products">Products</Link></li>
-        <li><Link to="/projects">Projects</Link></li>
-        <li><Link to="/opensource">Open Source</Link></li>
-        <li><Link to="/speaking">Speaking</Link></li>
+        <li><Link to="/">Baker Street</Link></li>
+        <li><Link to="/about">Case Files</Link></li> 
+        <li><Link to="/blog">Journal</Link></li>
+        <li><Link to="/projects">Solved Cases</Link></li>
+        <li><Link to="/opensource">Clues Shared</Link></li>
+        <li><Link to="/products">Inventor's Lab</Link></li>   
+        <li><Link to="/speaking">Public Cases</Link></li>     
       </ul>
     </nav>
   );
