@@ -10,13 +10,15 @@ function AboutMe() {
   };
 
   const notes = [
-    "2015: Wrote my first line of code.",
-    "2017: Completed my first internship.",
-    "2018: Built my first web application.",
-    "2020: Contributed to open-source projects.",
-    "2021: Started mentoring junior developers.",
-    "2022: Published my first technical article.",
-    "2023: Spoke at international conferences.",
+    "2022: Started my journey as a developer, leaving behind a successful SEO career.",
+    "2022: Learned coding at Lonca, where logic meets creativity and transforms into a craft.",
+    "2022: Completed my first project, igniting a passion for problem-solving and innovation.",
+    "2022: Published my first technical article, sharing knowledge with the tech community.",    
+    "2023: Participated in two hackathons with teams, earning awards for innovative solutions.",
+    "2023: Collaborated on open-source projects to create impactful global solutions.",
+    "2023: Supporting and mentoring developers at Women Coding Community.",
+    "2024: Spoke on International Women’s Day about empowering women in technology.",
+    "2024: Launched a knitting app to promote mental health and mindfulness post-COVID.",
   ];
 
   return (
