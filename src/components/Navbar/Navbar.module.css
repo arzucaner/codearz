@@ -8,6 +8,22 @@
   z-index: 100;
 }
 
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.animated-icon svg {
+  color: #ffd966;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.animated-icon:hover svg {
+  transform: scale(1.2);
+  color: #ffb400;
+}
+
 .logo {
   font-size: 24px;
   font-weight: bold;

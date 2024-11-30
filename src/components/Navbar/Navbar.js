@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { MdFingerprint } from "react-icons/md"; // Parmak izi ikonu
 import styles from "./Navbar.module.css";
 
 function Navbar() {
@@ -10,14 +11,20 @@ function Navbar() {
   };
 
   return (
-    <nav className={styles.navbar}>
-      <h1 className={styles.logo}>CodeArz</h1> 
-          
-      <div className={styles.hamburger} onClick={toggleMenu}>
+    <nav className={styles.navbar}>    
+      <div className={styles.logoContainer}>
+        <Link to="/" className="animated-icon">
+          <MdFingerprint size={40} />
+        </Link>
+        <h1 className={styles.logo}>CodeArz</h1>
+      </div>
+
+        <div className={styles.hamburger} onClick={toggleMenu}>
         <div className={styles.line}></div>
         <div className={styles.line}></div>
         <div className={styles.line}></div>
-      </div>     
+      </div>
+    
       <ul className={`${styles.navLinks} ${isMenuOpen ? styles.showMenu : ""}`}>
         <li><Link to="/">Baker Street</Link></li>
         <li><Link to="/about">Case Files</Link></li>
