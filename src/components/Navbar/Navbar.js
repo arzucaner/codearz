@@ -11,8 +11,8 @@ function Navbar() {
 
   return (
     <nav className={styles.navbar}>
-      <h1 className={styles.logo}>CodeArz</h1>
-      {/* Hamburger Menu Icon */}
+      <h1 className={styles.logo}>CodeArz</h1> 
+          
       <div className={styles.hamburger} onClick={toggleMenu}>
         <div className={styles.line}></div>
         <div className={styles.line}></div>

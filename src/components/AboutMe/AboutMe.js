@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Helmet } from "react-helmet";
 import styles from "./AboutMe.module.css";
 
 function AboutMe() {
@@ -19,71 +20,95 @@ function AboutMe() {
   ];
 
   return (
-    <div className={styles.aboutMeContainer}>
-      <h1 className={styles.title}>Arzu's Desk</h1>
+    <>
+      <Helmet>
+        <title>About Arzu Guney Caner | Developer's Desk</title>
+        <meta
+          name="description"
+          content="Learn more about Arzu Guney Caner, her journey in software development, and her contributions to the coding world."
+        />
+        <meta
+          name="keywords"
+          content="About Arzu Guney Caner, Web Developer, Detective Mind, CodeArz"
+        />
+        <meta name="author" content="Arzu Guney Caner" />
+        <link
+          rel="canonical"
+          href="https://arzucaner.github.io/codearz.github.io/about"
+        />
+      </Helmet>
+      <div className={styles.aboutMeContainer}>
+        <h1 className={styles.title}>Arzu's Desk</h1>
 
-      <div className={styles.notesBoard}>
-        {notes.map((note, index) => (
-          <div key={index} className={styles.note} style={{ "--rotation": `${(index % 2 === 0 ? -1 : 1) * (3 + index)}deg` }}>
-            <div className={styles.pin}></div>
-            <p className={styles.noteText}>{note}</p>
-          </div>
-        ))}
-      </div>
+        <div className={styles.notesBoard}>
+          {notes.map((note, index) => (
+            <div
+              key={index}
+              className={styles.note}
+              style={{
+                "--rotation": `${(index % 2 === 0 ? -1 : 1) * (3 + index)}deg`,
+              }}
+            >
+              <div className={styles.pin}></div>
+              <p className={styles.noteText}>{note}</p>
+            </div>
+          ))}
+        </div>
 
-      <button className={styles.contactButton} onClick={toggleForm}>
-        {isFormVisible ? "Close Contact Form" : "Get in Touch"}
-      </button>
+        <button className={styles.contactButton} onClick={toggleForm}>
+          {isFormVisible ? "Close Contact Form" : "Get in Touch"}
+        </button>
 
-      <div
-        className={`${styles.contactForm} ${
-          isFormVisible ? styles.contactFormVisible : ""
-        }`}
-      >
-        <h2 className={styles.contactTitle}>Contact Me</h2>
-        <form
-          action="https://formspree.io/f/mgvepvko"
-          method="POST"
-          className={styles.form}
+        <div
+          className={`${styles.contactForm} ${
+            isFormVisible ? styles.contactFormVisible : ""
+          }`}
         >
-          <label htmlFor="name" className={styles.label}>
-            Name:
-          </label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            className={styles.input}
-            required
-          />
+          <h2 className={styles.contactTitle}>Contact Me</h2>
+          <form
+            action="https://formspree.io/f/mgvepvko"
+            method="POST"
+            className={styles.form}
+          >
+            <label htmlFor="name" className={styles.label}>
+              Name:
+            </label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              className={styles.input}
+              required
+            />
 
-          <label htmlFor="email" className={styles.label}>
-            Email:
-          </label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            className={styles.input}
-            required
-          />
+            <label htmlFor="email" className={styles.label}>
+              Email:
+            </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              className={styles.input}
+              required
+            />
 
-          <label htmlFor="message" className={styles.label}>
-            Message:
-          </label>
-          <textarea
-            id="message"
-            name="message"
-            className={styles.textarea}
-            required
-          ></textarea>
+            <label htmlFor="message" className={styles.label}>
+              Message:
+            </label>
+            <textarea
+              id="message"
+              name="message"
+              className={styles.textarea}
+              required
+            ></textarea>
 
-          <button type="submit" className={styles.button}>
-            Send
-          </button>
-        </form>
+            <button type="submit" className={styles.button}>
+              Send
+            </button>
+          </form>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 

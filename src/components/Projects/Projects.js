@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import styles from "./Projects.module.css";
 import quickCuisineImage from "../../assets/images/projects/quickCuisineImage.png";
 import whenWomenUnderstandImage from "../../assets/images/projects/whenWomenUnderstandImage.png";
@@ -75,8 +76,25 @@ const projects = [
   },
 ];
 
-function Projects() {
+function Projects() { 
   return (
+    <>
+  <Helmet>
+        <title>Projects - Solved Cases</title>
+        <meta
+          name="description"
+          content="Explore a collection of completed projects, showcasing innovative ideas and creative problem-solving in web and app development."
+        />
+        <meta
+          name="keywords"
+          content="Projects, React, Web Development, App Development, Open Source, Programming"
+        />
+        <meta name="author" content="Arzu Guney Caner" />
+        <link
+          rel="canonical"
+          href="https://arzucaner.github.io/codearz.github.io/projects"
+        />
+      </Helmet>
     <div className={styles.projects}>
       <h1 className={styles.title}>Solved Cases</h1>
       <div className={styles.projectContainer}>
@@ -127,6 +145,7 @@ function Projects() {
         ))}
       </div>
     </div>
+    </>
   );
 }
 
