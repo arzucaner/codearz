@@ -1,71 +1,123 @@
 .openSource {
   padding: 50px 20px;
-  text-align: center;
   background: linear-gradient(135deg, #1e1e1e 25%, #333 75%);
-  color: #fff;
+  color: white;
+  text-align: center;
 }
 
-.openSource h1 {
-  font-size: 3rem;
-  margin-bottom: 30px;
+.title {
+  font-size: 2.5rem;
   color: #ffd966;
+  margin-bottom: 40px;
 }
 
-.openSourceContainer {
+.projectContainer {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: center;
   gap: 40px;
+  flex-wrap: wrap;
 }
 
-.openSourceCard {
-  width: 450px;
-  height: 550px;
-  background-color: #2b2b2b;
-  border: 2px solid #ffd966;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+.imageContainer {
+  flex: 1;
+  max-width: 40%; 
+  text-align: center;
+}
+
+.projectImage {
+  width: 100%;
+  height: auto;
+  max-height: 300px; 
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.contentContainer {
+  flex: 1;
+  max-width: 50%; 
   text-align: left;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
-.openSourceImage {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-}
-
-.openSourceContent {
-  padding: 25px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.openSourceTitle {
-  font-size: 1.8rem;
-  font-weight: bold;
+.projectTitle {
+  font-size: 2rem;
   color: #ffd966;
+  margin-bottom: 20px;
+}
+
+.projectDescription {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #d4c5a6;
+  margin-bottom: 20px;
+}
+
+.featuresList {
+  list-style: none;
+  padding: 0;
   margin: 0 0 20px 0;
 }
 
-.openSourceDescription {
-  font-size: 1.2rem;
-  color: #d4c5a6;
-  margin-bottom: 25px;
-}
-
-.openSourceLink {
-  display: inline-block;
+.featuresList li {
+  font-size: 1rem;
+  margin-bottom: 10px;
   color: #ffd966;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.2rem;
-  transition: color 0.3s ease;
 }
 
-.openSourceLink:hover {
-  color: #d4c5a6;
+.links {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start; 
+  flex-wrap: wrap; 
+  margin-top: 20px;
+}
+
+.link {
+  background: #ffd966;
+  color: #2e2e2e;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.link:hover {
+  background: #d4c5a6;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .projectContainer {
+    flex-direction: column;
+  }
+
+  .imageContainer, .contentContainer {
+    max-width: 100%;
+  }
+
+  .projectImage {
+    max-height: 250px;
+  }
+
+  .projectTitle {
+    font-size: 1.8rem;
+  }
+
+  .projectDescription, .featuresList li {
+    font-size: 0.9rem;
+  }
+
+  .links {
+    gap: 10px;
+  }
+
+  .link {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
 }

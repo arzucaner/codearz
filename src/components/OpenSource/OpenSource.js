@@ -1,30 +1,60 @@
 import React from "react";
 import styles from "./OpenSource.module.css";
-import accessibilityImage from "../../assets/images/general/accessibility-guide.png"; 
+import accessibilityImage from "../../assets/images/general/accessibility-guide.png";
 
 function OpenSource() {
   return (
     <div className={styles.openSource}>
       <h1 className={styles.title}>Open Source Projects</h1>
-      <div className={styles.openSourceContainer}>
-        <div className={styles.openSourceCard}>
+      <div className={styles.projectContainer}>
+        <div className={styles.imageContainer}>
           <img
-            src={accessibilityImage} 
+            src={accessibilityImage}
             alt="Accessibility Guide"
-            className={styles.openSourceImage}
+            className={styles.projectImage}
           />
-          <div className={styles.openSourceContent}>
-            <h3 className={styles.openSourceTitle}>Accessibility Guide</h3>
-            <p className={styles.openSourceDescription}>
-              This guide is a comprehensive resource for developers looking to implement accessibility best practices in their projects.
-            </p>
+        </div>
+        <div className={styles.contentContainer}>
+          <h2 className={styles.projectTitle}>Accessibility Guide</h2>
+          <p className={styles.projectDescription}>
+          This guide is a comprehensive resource for developers looking to
+  implement accessibility best practices in their projects. It includes
+  tutorials, code examples, and a step-by-step guide to building
+  inclusive web applications. I’d love for you to join us on this
+  journey! Whether it’s suggesting improvements, fixing issues, or 
+  adding new features, your contribution can make a difference. 
+  Let’s work together to make the web accessible to everyone!
+          </p>
+          <ul className={styles.featuresList}>
+            <li>🟦 Comprehensive Accessibility Checklist</li>
+            <li>🟦 Tutorials and Practical Examples</li>
+            <li>🟦 Compatible with WCAG and ARIA Standards</li>
+            <li>🟦 Dynamic Components for Accessibility</li>
+          </ul>
+          <div className={styles.links}>
             <a
               href="https://github.com/arzucaner/web-accessibility-guide"
               target="_blank"
               rel="noopener noreferrer"
-              className={styles.openSourceLink}
+              className={styles.link}
             >
-              View on GitHub
+              GitHub
+            </a>
+            <a
+              href="https://web-accessibility-guide.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.link}
+            >
+              Live Demo
+            </a>
+            <a
+              href="https://youtu.be/sample-video"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.link}
+            >
+              Watch Video
             </a>
           </div>
         </div>

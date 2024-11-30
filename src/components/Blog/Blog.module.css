@@ -3,20 +3,22 @@
   padding: 20px;
   background: linear-gradient(135deg, #1e1e1e 25%, #333 75%);
   color: white;
-  min-height: calc(100vh - 100px); 
+  min-height: 100vh;
 }
 
 .title {
   font-size: 36px;
   color: #ffd966;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  font-family: 'Playfair Display', serif;
 }
 
 .blogContainer {
-  display: flex;
-  flex-wrap: wrap; 
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
   gap: 20px;
+  justify-content: center;
+  padding: 10px;
 }
 
 .blogCard {
@@ -25,45 +27,73 @@
   border-radius: 8px;
   color: white;
   padding: 15px;
-  max-width: 300px;
-  width: 100%; 
   display: flex;
   flex-direction: column;
   align-items: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-  justify-content: space-between;
-  height: 100%; 
-  flex-grow: 1; 
-  height: 300px;
+  height: auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blogCard:hover {
+  transform: scale(1.03); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
 }
 
 .blogImage {
   width: 100%;
-  height: 150px;
+  height: 160px;
   object-fit: cover;
   border-radius: 8px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.blogImage:hover {
+  transform: scale(1.05); 
 }
 
 .blogTitle {
   font-size: 18px;
   color: #ffd966;
   margin-bottom: 10px;
-  text-align: center; 
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 .readMore {
   background-color: #ffd966;
   color: #2e2e2e;
   text-decoration: none;
-  padding: 8px 12px;
+  padding: 8px 16px;
   border-radius: 4px;
   font-size: 14px;
   font-weight: bold;
-  transition: background-color 0.3s ease;
-  margin-top: auto; 
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  margin-top: auto;
+  display: inline-block;
 }
 
 .readMore:hover {
   background-color: #d4c5a6;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 28px;
+  }
+
+  .blogImage {
+    height: 140px; 
+  }
+
+  .blogTitle {
+    font-size: 16px;
+  }
+
+  .readMore {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
 }

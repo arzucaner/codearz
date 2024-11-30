@@ -15,15 +15,17 @@
 
 .heroContent {
   z-index: 1;
+  padding: 0 20px;
 }
 
 .title {
-  font-size: 48px;
+  font-size: 3rem; 
   color: #ffd966;
   margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .magnifyingGlassWrapper {
@@ -36,7 +38,7 @@
 
 .magnifyingGlass {
   color: #ffd966;
-  font-size: 24px;
+  font-size: 1.5rem;
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
@@ -46,14 +48,24 @@
 }
 
 .subtitle {
-  font-size: 18px;
+  font-size: 1.2rem;
   margin: 10px 0 0 0;
   color: #d4c5a6;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.subtitle:hover {
+  color: #ffd966;
+  text-shadow: 0 0 8px rgba(255, 217, 102, 0.8);
 }
 
 .extraContent {
   margin-top: 30px;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; 
 }
 
 .shootingStar {
@@ -92,3 +104,22 @@
     opacity: 0;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .magnifyingGlass {
+    font-size: 1.2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .extraContent {
+    gap: 15px;
+  }
+}
+

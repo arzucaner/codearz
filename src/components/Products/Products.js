@@ -1,55 +1,60 @@
 import React from "react";
 import styles from "./Products.module.css";
+import knittMatesImage from "../../assets/images/products/knittmates.png";
 
 function Products() {
-  const products = [
-    {
-      title: "Mobile App X",
-      description: "A revolutionary app that simplifies your daily tasks.",
-      image: "https://via.placeholder.com/300",
-      link: "https://github.com/yourusername/mobile-app-x",
-    },
-    {
-      title: "Web App Y",
-      description: "A web application designed to boost productivity.",
-      image: "https://via.placeholder.com/300",
-      link: "https://github.com/yourusername/web-app-y",
-    },
-    {
-      title: "Tool Z",
-      description: "An open-source tool to optimize your workflow.",
-      image: "https://via.placeholder.com/300",
-      link: "https://github.com/yourusername/tool-z",
-    },
-  ];
-
   return (
     <div className={styles.products}>
-      <h1 className={styles.title}>Products</h1>
-      <div className={styles.productGrid}>
-        {products.map((product, index) => (
-          <div key={index} className={styles.productCard}>
-            <img
-              src={product.image}
-              alt={product.title}
-              className={styles.productImage}
-            />
-            <h2 className={styles.productTitle}>{product.title}</h2>
-            <p className={styles.productDescription}>{product.description}</p>
+      <h1 className={styles.title}>Crafting Innovations</h1>
+      
+      {/* Testing Message */}
+      <p className={styles.testingMessage}>
+        🚧 This application is currently in the testing phase. You can explore the test version below!
+      </p>
+
+      <div className={styles.productContainer}>
+        <div className={styles.imageContainer}>
+          <img
+            src={knittMatesImage}
+            alt="KnittMates App"
+            className={styles.productImage}
+          />
+        </div>
+        <div className={styles.contentContainer}>
+          <h2 className={styles.subtitle}>KnittMates: Your Knitting Calculator</h2>
+          <p className={styles.description}>
+            KnittMates is not just a knitting app; it's a lifestyle. Knitting a cosy blanket or a soft scarf is not just a hobby but also a process of taking a breath and finding oneself. KnittMates allows users to plan and track knitting projects while offering the key to inner peace and happiness.
+          </p>
+          <p className={styles.description}>
+            Behind every stitch, there is a story. KnittMates encourages users to weave their own stories and turn their dream projects into reality. This app creates a world filled with knitting yarns, hope, love, and creativity.
+          </p>
+          <p className={styles.description}>
+            Welcome to the knitting world of KnittMates. We invite you to embark on a journey where every stitch tells a story. KnittMates is the perfect environment for you to document your own story and find inspiration to create your most beautiful projects.
+          </p>
+          <div className={styles.buttons}>
             <a
-              href={product.link}
+              href="https://testlink.knittmates.com"
               target="_blank"
               rel="noopener noreferrer"
-              className={styles.productLink}
+              className={styles.button}
             >
-              View Details
+              Test Version
+            </a>
+            <a
+              href="https://www.knittmates.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.button}
+            >
+              Learn More
             </a>
           </div>
-        ))}
+        </div>
       </div>
     </div>
   );
 }
 
 export default Products;
+
 
