@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/codearz/static/css/main.86a8c7a1.css",
-    "main.js": "/codearz/static/js/main.23113937.js",
+    "main.js": "/codearz/static/js/main.d906ad6c.js",
     "static/js/453.25a6b2f9.chunk.js": "/codearz/static/js/453.25a6b2f9.chunk.js",
     "static/media/whenWomenUnderstandImage.png": "/codearz/static/media/whenWomenUnderstandImage.0da09cb8d1debe1134d0.png",
     "static/media/debuggingGuideImage.png": "/codearz/static/media/debuggingGuideImage.fcf8a437daca089a484d.png",
@@ -24,11 +24,11 @@
     "static/media/accessibility-guide.png": "/codearz/static/media/accessibility-guide.c3ae312fb1befa2a3dee.png",
     "index.html": "/codearz/index.html",
     "main.86a8c7a1.css.map": "/codearz/static/css/main.86a8c7a1.css.map",
-    "main.23113937.js.map": "/codearz/static/js/main.23113937.js.map",
+    "main.d906ad6c.js.map": "/codearz/static/js/main.d906ad6c.js.map",
     "453.25a6b2f9.chunk.js.map": "/codearz/static/js/453.25a6b2f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86a8c7a1.css",
-    "static/js/main.23113937.js"
+    "static/js/main.d906ad6c.js"
   ]
 }
