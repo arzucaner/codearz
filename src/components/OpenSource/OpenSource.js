@@ -61,7 +61,7 @@ function OpenSource() {
                 GitHub
               </a>
               <a
-                href="https://web-accessibility-guide.netlify.app"
+                href="https://arzucaner.github.io/web-accessibility-guide/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.link}

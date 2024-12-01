@@ -17,7 +17,7 @@ const projects = [
       "QuickCuisine is a React-based web application designed to provide a fast, efficient way to explore and share delicious recipes. This application utilizes a service worker to enhance performance through API caching and offers a dark mode feature for a customizable user experience.",
     image: quickCuisineImage,
     githubLink: "https://github.com/arzucaner/react-recipe-app",
-    liveLink: "https://quickcuisine-live-link.com",
+    liveLink: "https://equickcuisinerecipe.netlify.app/",
     videoLink: "https://youtu.be/xQQ9HRjpgSA",
   },
   {
@@ -26,7 +26,7 @@ const projects = [
       "A website initiative aimed at helping women recognize both physical violence and psychological abuse, empowering them to protect themselves. This project underscores the silent and hidden nature of psychological abuse, making it easy for women to recognize.",
     image: whenWomenUnderstandImage,
     githubLink: "https://github.com/arzucaner/when-women-understand",
-    liveLink: "https://when-women-understand-live-link.com",
+    liveLink: "https://when-women-understand.netlify.app/",
     videoLink: "https://youtu.be/XOcTClDCNPI",
   },
   {
