@@ -1,16 +1,34 @@
 {
   "files": {
-    "main.css": "/codearz.github.io/static/css/main.f855e6bc.css",
-    "main.js": "/codearz.github.io/static/js/main.e6ec0d06.js",
+    "main.css": "/codearz.github.io/static/css/main.86a8c7a1.css",
+    "main.js": "/codearz.github.io/static/js/main.1f79f83b.js",
     "static/js/453.25a6b2f9.chunk.js": "/codearz.github.io/static/js/453.25a6b2f9.chunk.js",
-    "static/media/logo.svg": "/codearz.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/whenWomenUnderstandImage.png": "/codearz.github.io/static/media/whenWomenUnderstandImage.0da09cb8d1debe1134d0.png",
+    "static/media/debuggingGuideImage.png": "/codearz.github.io/static/media/debuggingGuideImage.fcf8a437daca089a484d.png",
+    "static/media/motivationHurdleImage.png": "/codearz.github.io/static/media/motivationHurdleImage.c223c6a96e4ca7093b22.png",
+    "static/media/startingJobImage.png": "/codearz.github.io/static/media/startingJobImage.a0b22987cee3fc461432.png",
+    "static/media/2023SoftwareAdventureImage.png": "/codearz.github.io/static/media/2023SoftwareAdventureImage.2ce998101150e3c874bc.png",
+    "static/media/developerSuitcaseImage.png": "/codearz.github.io/static/media/developerSuitcaseImage.f36f8ef43e01c92903d6.png",
+    "static/media/aiDevCampNotesImage.png": "/codearz.github.io/static/media/aiDevCampNotesImage.0543c86c0bfe9228e78d.png",
+    "static/media/mobileAppsImage.png": "/codearz.github.io/static/media/mobileAppsImage.262053d7c211b442663f.png",
+    "static/media/goodnessOfNatureImage.png": "/codearz.github.io/static/media/goodnessOfNatureImage.07a43c3fe2202f2238d3.png",
+    "static/media/profil-photo.png": "/codearz.github.io/static/media/profil-photo.68428dc7d261ad6a6c61.png",
+    "static/media/quickCuisineImage.png": "/codearz.github.io/static/media/quickCuisineImage.1b7dfbeb34bb7009e1fc.png",
+    "static/media/habitMasterImage.png": "/codearz.github.io/static/media/habitMasterImage.d5b07c7206fa2efa5023.png",
+    "static/media/travelBrewImage.png": "/codearz.github.io/static/media/travelBrewImage.4e3eae4ba7641f2c95ec.png",
+    "static/media/wwCodeImage.png": "/codearz.github.io/static/media/wwCodeImage.bb3acf759271f0c3e592.png",
+    "static/media/reactNativeImage.png": "/codearz.github.io/static/media/reactNativeImage.6856aad736cc6f11271d.png",
+    "static/media/knittmates.png": "/codearz.github.io/static/media/knittmates.43f1b3dc7c48a875cb41.png",
+    "static/media/triviaQuestImage.png": "/codearz.github.io/static/media/triviaQuestImage.9ca76bd18616c5c16732.png",
+    "static/media/chirpXImage.png": "/codearz.github.io/static/media/chirpXImage.ccffa4b6d9b30ae77201.png",
+    "static/media/accessibility-guide.png": "/codearz.github.io/static/media/accessibility-guide.c3ae312fb1befa2a3dee.png",
     "index.html": "/codearz.github.io/index.html",
-    "main.f855e6bc.css.map": "/codearz.github.io/static/css/main.f855e6bc.css.map",
-    "main.e6ec0d06.js.map": "/codearz.github.io/static/js/main.e6ec0d06.js.map",
+    "main.86a8c7a1.css.map": "/codearz.github.io/static/css/main.86a8c7a1.css.map",
+    "main.1f79f83b.js.map": "/codearz.github.io/static/js/main.1f79f83b.js.map",
     "453.25a6b2f9.chunk.js.map": "/codearz.github.io/static/js/453.25a6b2f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.e6ec0d06.js"
+    "static/css/main.86a8c7a1.css",
+    "static/js/main.1f79f83b.js"
   ]
 }
