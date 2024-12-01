@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { MdFingerprint } from "react-icons/md"; // Parmak izi ikonu
+import { MdFingerprint } from "react-icons/md"; 
 import styles from "./Navbar.module.css";
 
 function Navbar() {

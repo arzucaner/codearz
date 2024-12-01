@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import AboutMe from "./components/AboutMe/AboutMe";
@@ -9,6 +9,7 @@ import Projects from "./components/Projects/Projects";
 import OpenSource from "./components/OpenSource/OpenSource";
 import Speaking from "./components/Speaking/Speaking";
 import Footer from "./components/Footer/Footer"; 
+
 function App() {
   return (
     <Router>
