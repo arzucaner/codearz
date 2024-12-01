@@ -66,7 +66,7 @@ function Products() {
             </p>
             <div className={styles.buttons}>
               <a
-                href="https://testlink.knittmates.com"
+                href="https://play.google.com/store/apps/details?id=com.innoaits.knitmate"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.button}
@@ -74,7 +74,7 @@ function Products() {
                 Test Version
               </a>
               <a
-                href="https://www.knittmates.com"
+                href="https://play.google.com/apps/testing/com.innoaits.knitmate"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.button}

@@ -51,7 +51,7 @@
   font-size: 1.2rem;
   margin: 10px 0 0 0;
   color: #d4c5a6;
-  transition: color 0.3s ease, text-shadow 0.3s ease;
+  transition: color 0.3s ease, text-shadow 0.3s ease;  
 }
 
 .subtitle:hover {

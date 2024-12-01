@@ -69,7 +69,7 @@ function OpenSource() {
                 Live Demo
               </a>
               <a
-                href="https://youtu.be/sample-video"
+                href="https://youtu.be/PHxfQKHagNM"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.link}

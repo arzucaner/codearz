@@ -27,6 +27,7 @@ const projects = [
     image: whenWomenUnderstandImage,
     githubLink: "https://github.com/arzucaner/when-women-understand",
     liveLink: "https://when-women-understand-live-link.com",
+    videoLink: "https://youtu.be/XOcTClDCNPI",
   },
   {
     title: "TravelBrew",
@@ -34,6 +35,7 @@ const projects = [
       "A mobile app to assist travellers in discovering the best coffee and cosy spots while visiting new cities. It highlights venues with essential needs like coffee, seating areas, and restrooms.",
     image: travelBrewImage,
     githubLink: "https://github.com/arzucaner/travel-brew",
+    videoLink: "https://youtu.be/A1DmeX5OwPI",
   },
   {
     title: "React TriviaQuest Challenge",
@@ -42,6 +44,7 @@ const projects = [
     image: triviaQuestImage,
     githubLink: "https://github.com/arzucaner/react-triviaquest-challenge",
     liveLink: "https://react-triviaquest-challenge.netlify.app/",
+    videoLink: "https://youtu.be/ViAYjc-SEtA",
   },
   {
     title: "Women Who Code's Days of Code Challenge",
