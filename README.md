@@ -38,6 +38,10 @@ This project serves as:
 - A **platform** to share blog posts, open-source contributions, and completed projects.
 - An **example** of how design, animations, and interactivity can enhance user experience.
 
+## 🔗 Live Demo
+
+Check out the live version here: [CodeArz Live Website](https://arzucaner.github.io/codearz/)
+
 
 ## ⚙️ Setup and Installation
 
