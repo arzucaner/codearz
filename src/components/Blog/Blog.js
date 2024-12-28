@@ -9,8 +9,16 @@ import debuggingGuideImage from "../../assets/images/blog/debuggingGuideImage.pn
 import softwareAdventureImage from "../../assets/images/blog/2023SoftwareAdventureImage.png";
 import motivationHurdleImage from "../../assets/images/blog/motivationHurdleImage.png";
 import aiDevCampNotesImage from "../../assets/images/blog/aiDevCampNotesImage.png";
+import recap2024Image from "../../assets/images/blog/recap2024Image.png";
+
 
 const blogs = [
+  {
+    title: "Behind the Scenes of 2024!",
+    image: recap2024Image,
+    readMoreLink:
+      "https://arzugny.medium.com/behind-the-scenes-of-2024-ffbdee9dcc45",
+  },
   {
     title: "How to Create Engaging and Functional Mobile Apps?",
     image: mobileAppsImage,
