@@ -26,12 +26,7 @@ function Products() {
       </Helmet>
 
       <div className={styles.products}>
-        <h1 className={styles.title}>Crafting Innovations</h1>
-
-        <p className={styles.testingMessage}>
-          🚧 This application is currently in the testing phase. You can explore
-          the test version below!
-        </p>
+        <h1 className={styles.title}>Crafting Innovations</h1>        
 
         <div className={styles.productContainer}>
           <div className={styles.imageContainer}>
@@ -66,15 +61,15 @@ function Products() {
             </p>
             <div className={styles.buttons}>
               <a
-                href="https://play.google.com/store/apps/details?id=com.innoaits.knitmate"
+                href="https://play.google.com/store/apps/details?id=com.innoaits.knitmate&hl=en_GB"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.button}
               >
-                Test Version
+                Google Play Store
               </a>
               <a
-                href="https://play.google.com/apps/testing/com.innoaits.knitmate"
+                href="https://play.google.com/store/apps/details?id=com.innoaits.knitmate&hl=en_GB"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.button}
