@@ -2,6 +2,9 @@
 
 Welcome to **CodeArz**, a unique, interactive, and creative developer portfolio designed with a Sherlock Holmes-inspired theme. This project reflects a passion for solving mysteries—whether in code or life—and merges creativity with technical precision.
 
+![Portfolio Preview](./src/assets/images/portfolio-preview.png)
+
+
 ## 🌟 Features
 
 - **Thematic Design**: Sherlock-inspired aesthetics combined with modern web development practices.
@@ -42,7 +45,6 @@ This project serves as:
 
 Check out the live version here: [CodeArz Live Website](https://arzucaner.github.io/codearz/)
 
-
 ## ⚙️ Setup and Installation
 
 To run the project locally, follow these steps:
@@ -55,14 +57,11 @@ To run the project locally, follow these steps:
 
 2. Install dependencies:
 
-    ` npm install`
-
+   ` npm install`
 3. Start the development server:
 
-    ` npm start`
-
+   ` npm start`
 4. Open your browser and visit: `http://localhost:3000`
-
 
 ## 🌍 Deployment
 

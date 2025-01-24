@@ -6,7 +6,7 @@ import { BiCoffee } from "react-icons/bi";
 function Footer() {
     const socialLinks = [
         { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/arzucaner/", name: "LinkedIn" },
-        { icon: <FaChalkboardTeacher />, link: "https://superpeer.com/arzucaner", name: "Superpeer" },
+        { icon: <FaChalkboardTeacher />, link: "https://topmate.io/arzu_guney/", name: "Topmate" },
         { icon: <FaGithub />, link: "https://github.com/arzucaner", name: "GitHub" },
         { icon: <FaMedium />, link: "https://arzugny.medium.com/", name: "Medium" },
         { icon: <FaYoutube />, link: "https://www.youtube.com/@Codearz", name: "YouTube" },
