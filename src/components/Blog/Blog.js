@@ -10,9 +10,17 @@ import softwareAdventureImage from "../../assets/images/blog/2023SoftwareAdventu
 import motivationHurdleImage from "../../assets/images/blog/motivationHurdleImage.png";
 import aiDevCampNotesImage from "../../assets/images/blog/aiDevCampNotesImage.png";
 import recap2024Image from "../../assets/images/blog/recap2024Image.png";
+import experienceAboutYears from "../../assets/images/blog/experienceaboutyears.png";
+
 
 
 const blogs = [
+  {
+    title: "Is Experience About Years or Growth?",
+    image: experienceAboutYears,
+    readMoreLink:
+      "https://arzugny.medium.com/is-experience-about-years-or-growth-91c0a8e4cc18",
+  },
   {
     title: "Behind the Scenes of 2024!",
     image: recap2024Image,
