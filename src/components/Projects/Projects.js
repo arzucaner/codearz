@@ -9,8 +9,24 @@ import wwCodeImage from "../../assets/images/projects/wwCodeImage.png";
 import goodnessOfNatureImage from "../../assets/images/projects/goodnessOfNatureImage.png";
 import habitMasterImage from "../../assets/images/projects/habitMasterImage.png"; 
 import chirpXImage from "../../assets/images/projects/chirpXImage.png"; 
+import innoaiTS from "../../assets/images/projects/innoaiTS.png";
+import knittmates from "../../assets/images/projects/knittmates.png";
 
 const projects = [
+  {
+    title: "KnittMates",
+    description:
+      "Your personalized knitting calculator & guide! KnittMates is a web application that helps knitters calculate the number of stitches and rows needed for their projects. It also provides a guide for knitting abbreviations and terms, making it easier for users to understand patterns.",
+    image: knittmates,    
+    liveLink: "https://knittmates.com/",    
+  },
+  {
+    title: "InnoAl Tech Solution",
+    description:
+      "InnoAl Tech Solution provides cutting-edge solutions in web design, AI, database development, and software innovation. The website is designed to showcase the company's services and projects, with a clean and professional look.",
+    image: innoaiTS,    
+    liveLink: "https://innoaitechsolution.com/",    
+  },
   {
     title: "QuickCuisine - Fast and Delicious Recipes",
     description:
