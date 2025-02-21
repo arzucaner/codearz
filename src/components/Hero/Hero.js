@@ -36,16 +36,11 @@ function Hero() {
           <span className={styles.magnifyingGlassWrapper}>
             <FaSearch className={styles.magnifyingGlass} />
           </span>
-        </h1>
-        <p className={styles.subtitle}>
-          In the vast digital labyrinth, every bug is a clue, every project a
-          case.
-        </p>
-        <p className={styles.subtitle}>
-          Welcome to Arzu's world—a Developer, Blogger, and Creator
-          <p>on a relentless quest to solve the mysteries of code with precision and
-          creativity.</p> 
-        </p>
+        </h1>        
+        <p className={styles.subtitle}> 
+  <span>Welcome to Arzu's world—a Developer, Blogger, and Creator</span> <br />
+  <span>on a relentless quest to solve the mysteries of code with precision and creativity.</span>
+</p>
       </div>
 
       <div className={styles.extraContent}>
