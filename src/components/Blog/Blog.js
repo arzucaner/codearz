@@ -11,10 +11,23 @@ import motivationHurdleImage from "../../assets/images/blog/motivationHurdleImag
 import aiDevCampNotesImage from "../../assets/images/blog/aiDevCampNotesImage.png";
 import recap2024Image from "../../assets/images/blog/recap2024Image.png";
 import experienceAboutYears from "../../assets/images/blog/experienceaboutyears.png";
-
+import reactlibraries from "../../assets/images/blog/reactlibraries.png";
+import reactnativeperformance from "../../assets/images/blog/reactnativeperformance.png";
 
 
 const blogs = [
+  {    
+    title: "Optimizing React Native Performance",
+    image: reactnativeperformance,
+    readMoreLink:
+      "https://arzugny.medium.com/optimizing-react-native-performance-3d979d9f373b",
+  },
+  {    
+    title: "Boost Your Web Projects with React Libraries",
+    image: reactlibraries,
+    readMoreLink:
+      "https://arzugny.medium.com/boost-your-web-projects-with-react-libraries-b7023e376e16",
+  },
   {
     title: "Is Experience About Years or Growth?",
     image: experienceAboutYears,
@@ -75,7 +88,7 @@ const blogs = [
     image: aiDevCampNotesImage,
     readMoreLink:
       "https://arzugny.medium.com/i-devcamp-notes-journey-into-the-world-of-artificial-intelligence-f171f6b38159",
-  },
+  },  
 ];
 
 function Blog() {
