@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Countdown.module.css";
+import bookCover from "../../assets/images/book-cover.png"; 
 
 function Countdown() {
   const calculateTimeLeft = () => {
@@ -28,11 +29,7 @@ function Countdown() {
   }, []);
 
   return (
-    <div className={styles.countdown}>
-      <h2 className={styles.title}>Countdown to Launch</h2>
-      <p className={styles.description}>
-        A <strong>big surprise</strong> is coming soon. Stay tuned!
-      </p>
+    <div className={styles.countdownContainer}>     
       <div className={styles.timeContainer}>
         {Object.keys(timeLeft).map((interval) => (
           <div key={interval} className={styles.timeBlock}>
@@ -41,12 +38,35 @@ function Countdown() {
           </div>
         ))}
       </div>
+
+           <div className={styles.bookContainer}>
+        <img
+          src={bookCover}
+          alt="Ctrl + Alt + Delete Book Cover"
+          className={styles.bookImage}
+        />
+        <div className={styles.bookDetails}>
+          <h3 className={styles.bookTitle}>
+            Ctrl + Alt + Delete:
+            <p>How I Reset My Career and Rewrote My Future</p> 
+          </h3>
+          <p className={styles.bookDescription}>
+            <em>
+              Discover my journey of career transformation!
+            </em>
+          </p>
+          <a
+            href="https://www.amazon.com/author/arzu.guney"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.buyButton}
+          >
+            Get it on Kindle
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
 
 export default Countdown;
-
-
-
-

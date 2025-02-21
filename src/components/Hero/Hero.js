@@ -42,9 +42,9 @@ function Hero() {
           case.
         </p>
         <p className={styles.subtitle}>
-          Welcome to Arzu's world—a Developer, Blogger, and Creator on a
-          relentless quest to solve the mysteries of code with precision and
-          creativity.
+          Welcome to Arzu's world—a Developer, Blogger, and Creator
+          <p>on a relentless quest to solve the mysteries of code with precision and
+          creativity.</p> 
         </p>
       </div>
 
