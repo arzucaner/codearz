@@ -11,8 +11,18 @@ import habitMasterImage from "../../assets/images/projects/habitMasterImage.png"
 import chirpXImage from "../../assets/images/projects/chirpXImage.png"; 
 import innoaiTS from "../../assets/images/projects/innoaiTS.png";
 import knittmates from "../../assets/images/projects/knittmates.png";
+import safeaiAcademyImage from "../../assets/images/projects/safeaiAcademyImage.png";
 
 const projects = [
+  {
+    title: "Safeai Academy",
+    description:
+      "Women in AI Safety Hackathon Project: An interactive AI Safety learning platform featuring educational modules, scenario-based simulations, and quizzes.",
+    image: safeaiAcademyImage,    
+    githubLink:"https://github.com/arzucaner/safeai-academy",
+    liveLink: "https://arzucaner.github.io/safeai-academy/", 
+    videoLink: "https://youtu.be/qiOpm2WbYPo"
+  },
   {
     title: "KnittMates",
     description:
