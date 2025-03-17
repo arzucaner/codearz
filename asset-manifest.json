@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/codearz/static/css/main.f55fb4ff.css",
-    "main.js": "/codearz/static/js/main.d7d7ed0a.js",
+    "main.js": "/codearz/static/js/main.d0f5e2be.js",
     "static/media/whenWomenUnderstandImage.png": "/codearz/static/media/whenWomenUnderstandImage.0da09cb8d1debe1134d0.png",
     "static/media/debuggingGuideImage.png": "/codearz/static/media/debuggingGuideImage.fcf8a437daca089a484d.png",
     "static/media/motivationHurdleImage.png": "/codearz/static/media/motivationHurdleImage.c223c6a96e4ca7093b22.png",
@@ -17,6 +17,7 @@
     "static/media/quickCuisineImage.png": "/codearz/static/media/quickCuisineImage.1b7dfbeb34bb7009e1fc.png",
     "static/media/habitMasterImage.png": "/codearz/static/media/habitMasterImage.d5b07c7206fa2efa5023.png",
     "static/media/innoaiTS.png": "/codearz/static/media/innoaiTS.3b46a10fb770b037cb1b.png",
+    "static/media/safeaiAcademyImage.png": "/codearz/static/media/safeaiAcademyImage.7d843f42db5b3be8b13e.png",
     "static/media/knittmates.png": "/codearz/static/media/knittmates.43f1b3dc7c48a875cb41.png",
     "static/media/travelBrewImage.png": "/codearz/static/media/travelBrewImage.4e3eae4ba7641f2c95ec.png",
     "static/media/wwCodeImage.png": "/codearz/static/media/wwCodeImage.bb3acf759271f0c3e592.png",
@@ -29,10 +30,10 @@
     "static/media/accessibility-guide.png": "/codearz/static/media/accessibility-guide.c3ae312fb1befa2a3dee.png",
     "index.html": "/codearz/index.html",
     "main.f55fb4ff.css.map": "/codearz/static/css/main.f55fb4ff.css.map",
-    "main.d7d7ed0a.js.map": "/codearz/static/js/main.d7d7ed0a.js.map"
+    "main.d0f5e2be.js.map": "/codearz/static/js/main.d0f5e2be.js.map"
   },
   "entrypoints": [
     "static/css/main.f55fb4ff.css",
-    "static/js/main.d7d7ed0a.js"
+    "static/js/main.d0f5e2be.js"
   ]
 }
