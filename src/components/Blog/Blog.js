@@ -13,9 +13,16 @@ import recap2024Image from "../../assets/images/blog/recap2024Image.png";
 import experienceAboutYears from "../../assets/images/blog/experienceaboutyears.png";
 import reactlibraries from "../../assets/images/blog/reactlibraries.png";
 import reactnativeperformance from "../../assets/images/blog/reactnativeperformance.png";
+import optimizingReactNative from "../../assets/images/blog/optimizingReactNative.png"
 
 
 const blogs = [
+  {    
+    title: "Optimizing Animation Performance in React Native",
+    image: optimizingReactNative,
+    readMoreLink:
+      "https://arzugny.medium.com/optimizing-animation-performance-in-react-native-fc5a59445aae",
+  },
   {    
     title: "Optimizing React Native Performance",
     image: reactnativeperformance,
