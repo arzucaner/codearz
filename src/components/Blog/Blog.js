@@ -13,10 +13,17 @@ import recap2024Image from "../../assets/images/blog/recap2024Image.png";
 import experienceAboutYears from "../../assets/images/blog/experienceaboutyears.png";
 import reactlibraries from "../../assets/images/blog/reactlibraries.png";
 import reactnativeperformance from "../../assets/images/blog/reactnativeperformance.png";
-import optimizingReactNative from "../../assets/images/blog/optimizingReactNative.png"
+import optimizingReactNative from "../../assets/images/blog/optimizingReactNative.png";
+import aiGrowsYou from "../../assets/images/blog/aiGrowsYou.png";
 
 
 const blogs = [
+  {    
+    title: "How to Build a Relationship with AI That Grows You",
+    image: aiGrowsYou,
+    readMoreLink:
+      "https://arzugny.medium.com/how-to-build-a-relationship-with-ai-that-grows-you-21b2f7ba6fee",
+  },
   {    
     title: "Optimizing Animation Performance in React Native",
     image: optimizingReactNative,
