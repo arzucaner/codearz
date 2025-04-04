@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/codearz/static/css/main.f55fb4ff.css",
-    "main.js": "/codearz/static/js/main.90011a03.js",
+    "main.js": "/codearz/static/js/main.198ddeab.js",
     "static/media/whenWomenUnderstandImage.png": "/codearz/static/media/whenWomenUnderstandImage.0da09cb8d1debe1134d0.png",
+    "static/media/aiGrowsYou.png": "/codearz/static/media/aiGrowsYou.1020fd025381f1471acc.png",
     "static/media/debuggingGuideImage.png": "/codearz/static/media/debuggingGuideImage.fcf8a437daca089a484d.png",
     "static/media/motivationHurdleImage.png": "/codearz/static/media/motivationHurdleImage.c223c6a96e4ca7093b22.png",
     "static/media/startingJobImage.png": "/codearz/static/media/startingJobImage.a0b22987cee3fc461432.png",
@@ -31,10 +32,10 @@
     "static/media/accessibility-guide.png": "/codearz/static/media/accessibility-guide.c3ae312fb1befa2a3dee.png",
     "index.html": "/codearz/index.html",
     "main.f55fb4ff.css.map": "/codearz/static/css/main.f55fb4ff.css.map",
-    "main.90011a03.js.map": "/codearz/static/js/main.90011a03.js.map"
+    "main.198ddeab.js.map": "/codearz/static/js/main.198ddeab.js.map"
   },
   "entrypoints": [
     "static/css/main.f55fb4ff.css",
-    "static/js/main.90011a03.js"
+    "static/js/main.198ddeab.js"
   ]
 }
