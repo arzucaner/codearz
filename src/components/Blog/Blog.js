@@ -15,9 +15,16 @@ import reactlibraries from "../../assets/images/blog/reactlibraries.png";
 import reactnativeperformance from "../../assets/images/blog/reactnativeperformance.png";
 import optimizingReactNative from "../../assets/images/blog/optimizingReactNative.png";
 import aiGrowsYou from "../../assets/images/blog/aiGrowsYou.png";
+import expoforReactNative from "../../assets/images/blog/expoforReactNative.png";
 
 
 const blogs = [
+  {    
+    title: "Why I Still Choose Expo for React Native in 2025",
+    image: expoforReactNative,
+    readMoreLink:
+      "https://arzugny.medium.com/why-i-still-choose-expo-for-react-native-in-2025-45d8803e8b2f",
+  },
   {    
     title: "How to Build a Relationship with AI That Grows You",
     image: aiGrowsYou,
