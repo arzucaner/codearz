@@ -16,9 +16,16 @@ import reactnativeperformance from "../../assets/images/blog/reactnativeperforma
 import optimizingReactNative from "../../assets/images/blog/optimizingReactNative.png";
 import aiGrowsYou from "../../assets/images/blog/aiGrowsYou.png";
 import expoforReactNative from "../../assets/images/blog/expoforReactNative.png";
+import juniorPortfolyo from "../../assets/images/blog/juniorPortfolio.png";
 
 
 const blogs = [
+  {    
+    title: "Why Your Junior Portfolio Isn’t Helping You Get Hired",
+    image: juniorPortfolyo,
+    readMoreLink:
+      "https://arzugny.medium.com/why-your-junior-portfolio-isnt-helping-you-get-hired-5e1ee207107e",
+  },
   {    
     title: "Why I Still Choose Expo for React Native in 2025",
     image: expoforReactNative,
