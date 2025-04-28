@@ -35,6 +35,8 @@
   flex-direction: column;
   cursor: pointer;
   gap: 4px;
+  z-index: 1000;
+  position: relative; 
 }
 
 .hamburger .line {
@@ -49,10 +51,13 @@
   gap: 15px;
   margin: 0;
   padding: 0;
+  z-index: 999; 
 }
 
 .navLinks li {
   text-transform: uppercase;
+  width: 100%;
+  padding: 10px 0;
 }
 
 .navLinks a {
@@ -62,7 +67,10 @@
 }
 
 .navLinks a:hover {
-  color: #ffb400;
+  color: #ffb400;  
+}
+.no-scroll {
+  overflow: hidden;
 }
 
 @media (max-width: 768px) {
@@ -81,9 +89,10 @@
     gap: 10px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
   }
 
   .navLinks.showMenu {
     display: flex;
-  }
+  }  
 }
