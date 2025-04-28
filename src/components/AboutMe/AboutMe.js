@@ -18,8 +18,9 @@ function AboutMe() {
     "2023: Collaborated on open-source projects to create impactful global solutions.",
     "2023: Supporting and mentoring developers at Women Coding Community.",
     "2024: Spoke on International Women’s Day about empowering women in technology.",
-    "2024: Launched a knitting app to promote mental health and mindfulness post-COVID.",
+    "2024: Launched a knitting app (KnittMates) to promote mental health post-COVID.",
     "2025: Received the AI Visionary Award from the Frontend Queens Community.",
+    "2025: Participated in AI Safety Hackathon and created Safeai Academy."
   ];
 
   return (

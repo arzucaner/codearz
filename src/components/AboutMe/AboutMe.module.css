@@ -3,12 +3,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   background: radial-gradient(circle, #444 30%, #222 90%);
   color: white;
   padding: 20px;
-  position: relative;
-  overflow: hidden;
+  position: relative; 
 }
 
 .title {
