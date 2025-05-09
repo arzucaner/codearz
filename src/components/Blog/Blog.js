@@ -17,9 +17,16 @@ import optimizingReactNative from "../../assets/images/blog/optimizingReactNativ
 import aiGrowsYou from "../../assets/images/blog/aiGrowsYou.png";
 import expoforReactNative from "../../assets/images/blog/expoforReactNative.png";
 import juniorPortfolyo from "../../assets/images/blog/juniorPortfolio.png";
+import watchTutorials from "../../assets/images/blog/watchTutorials.png";
 
 
 const blogs = [
+  {    
+    title: "Why You’re Not Learning Enough by Just Watching Tutorials",
+    image: watchTutorials,
+    readMoreLink:
+      "https://arzugny.medium.com/why-youre-not-learning-enough-by-just-watching-tutorials-d6784a87b76f",
+  },
   {    
     title: "Why Your Junior Portfolio Isn’t Helping You Get Hired",
     image: juniorPortfolyo,
