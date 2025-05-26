@@ -18,9 +18,23 @@ import aiGrowsYou from "../../assets/images/blog/aiGrowsYou.png";
 import expoforReactNative from "../../assets/images/blog/expoforReactNative.png";
 import juniorPortfolyo from "../../assets/images/blog/juniorPortfolio.png";
 import watchTutorials from "../../assets/images/blog/watchTutorials.png";
+import whyYouStill from "../../assets/images/blog/whyYouStill.png";
+import whyYouWaiting from "../../assets/images/blog/whyYouWaiting.png";
 
 
 const blogs = [
+   {    
+    title: "Why You’re Waiting for Permission to Build Something",
+    image: whyYouWaiting,
+    readMoreLink:
+      "https://arzugny.medium.com/why-youre-waiting-for-permission-to-build-something-7b7386713ef8",
+  },
+   {    
+    title: "Why You Still Don’t Understand Git",
+    image: whyYouStill,
+    readMoreLink:
+      "https://arzugny.medium.com/why-you-still-dont-understand-git-07bfaa649a4a",
+  },
   {    
     title: "Why You’re Not Learning Enough by Just Watching Tutorials",
     image: watchTutorials,
