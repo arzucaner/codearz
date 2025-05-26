@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/codearz/static/css/main.ca3467f1.css",
-    "main.js": "/codearz/static/js/main.0fd713f4.js",
+    "main.js": "/codearz/static/js/main.e639eb21.js",
+    "static/media/whyYouWaiting.png": "/codearz/static/media/whyYouWaiting.a5d15956737df72c2ccf.png",
     "static/media/whenWomenUnderstandImage.png": "/codearz/static/media/whenWomenUnderstandImage.0da09cb8d1debe1134d0.png",
     "static/media/juniorPortfolio.png": "/codearz/static/media/juniorPortfolio.2af4773e47c85f634ee9.png",
     "static/media/expoforReactNative.png": "/codearz/static/media/expoforReactNative.85d5e780763ee9dc6389.png",
@@ -21,6 +22,7 @@
     "static/media/quickCuisineImage.png": "/codearz/static/media/quickCuisineImage.1b7dfbeb34bb7009e1fc.png",
     "static/media/habitMasterImage.png": "/codearz/static/media/habitMasterImage.d5b07c7206fa2efa5023.png",
     "static/media/innoaiTS.png": "/codearz/static/media/innoaiTS.3b46a10fb770b037cb1b.png",
+    "static/media/whyYouStill.png": "/codearz/static/media/whyYouStill.97aeeba34f4c18a01a35.png",
     "static/media/safeaiAcademyImage.png": "/codearz/static/media/safeaiAcademyImage.7d843f42db5b3be8b13e.png",
     "static/media/knittmates.png": "/codearz/static/media/knittmates.43f1b3dc7c48a875cb41.png",
     "static/media/travelBrewImage.png": "/codearz/static/media/travelBrewImage.4e3eae4ba7641f2c95ec.png",
@@ -29,16 +31,17 @@
     "static/media/book-cover.png": "/codearz/static/media/book-cover.a1833d372ba71e076a09.png",
     "static/media/reactnativeperformance.png": "/codearz/static/media/reactnativeperformance.e68d516e8d2bf10fa0d4.png",
     "static/media/reactlibraries.png": "/codearz/static/media/reactlibraries.4bac5fd98b814f918538.png",
+    "static/media/devprep.png": "/codearz/static/media/devprep.10696ecb435fa4428747.png",
     "static/media/optimizingReactNative.png": "/codearz/static/media/optimizingReactNative.cd674af1031d9611fc54.png",
     "static/media/triviaQuestImage.png": "/codearz/static/media/triviaQuestImage.9ca76bd18616c5c16732.png",
     "static/media/chirpXImage.png": "/codearz/static/media/chirpXImage.ccffa4b6d9b30ae77201.png",
     "static/media/accessibility-guide.png": "/codearz/static/media/accessibility-guide.c3ae312fb1befa2a3dee.png",
     "index.html": "/codearz/index.html",
     "main.ca3467f1.css.map": "/codearz/static/css/main.ca3467f1.css.map",
-    "main.0fd713f4.js.map": "/codearz/static/js/main.0fd713f4.js.map"
+    "main.e639eb21.js.map": "/codearz/static/js/main.e639eb21.js.map"
   },
   "entrypoints": [
     "static/css/main.ca3467f1.css",
-    "static/js/main.0fd713f4.js"
+    "static/js/main.e639eb21.js"
   ]
 }
