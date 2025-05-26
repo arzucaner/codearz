@@ -12,13 +12,13 @@ import chirpXImage from "../../assets/images/projects/chirpXImage.png";
 import innoaiTS from "../../assets/images/projects/innoaiTS.png";
 import knittmates from "../../assets/images/projects/knittmates.png";
 import safeaiAcademyImage from "../../assets/images/projects/safeaiAcademyImage.png";
-import devprep from "../../assests/images/projects/devprep.png";
+import devprep from "../../assets/images/projects/devprep.png";
 
 const projects = [
   {
     title: "Devprep",
     description:
-      "A comprehensive web development interview preparation platform.",
+      "Web app built to help developers prepare for technical interviews. It features categorised questions, concise answers, role-based filters (Junior to Lead), and mini quizzes with real-time scoring.",
     image: devprep,    
     githubLink:"https://github.com/arzucaner/devprep",
     liveLink: "https://arzucaner.github.io/devprep/", 
