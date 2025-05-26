@@ -12,8 +12,18 @@ import chirpXImage from "../../assets/images/projects/chirpXImage.png";
 import innoaiTS from "../../assets/images/projects/innoaiTS.png";
 import knittmates from "../../assets/images/projects/knittmates.png";
 import safeaiAcademyImage from "../../assets/images/projects/safeaiAcademyImage.png";
+import devprep from "../../assests/images/projects/devprep.png";
 
 const projects = [
+  {
+    title: "Devprep",
+    description:
+      "A comprehensive web development interview preparation platform.",
+    image: devprep,    
+    githubLink:"https://github.com/arzucaner/devprep",
+    liveLink: "https://arzucaner.github.io/devprep/", 
+    videoLink: "https://www.youtube.com/watch?v=9R6JbeWdJGA"
+  },
   {
     title: "Safeai Academy",
     description:
