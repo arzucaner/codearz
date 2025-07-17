@@ -2,8 +2,9 @@ import React from "react";
 import Countdown from "../Countdown/Countdown";
 import MiniGame from "../MiniGame/MiniGame";
 import { Helmet } from "react-helmet";
-import styles from "./Hero.module.css";
 import { FaSearch } from "react-icons/fa";
+import { RiCompass3Line } from "react-icons/ri";
+import styles from "./Hero.module.css";
 
 function Hero() {
   return (
@@ -12,8 +13,7 @@ function Hero() {
         <title>CodeArz: Enter Baker Street - Modern Detective Mind</title>
         <meta
           name="description"
-          content="Welcome to CodeArz! Discover the modern detective mind, solving mysteries in the digital age with innovative coding 
-          techniques and interactive experiences."
+          content="Welcome to CodeArz! Discover the modern detective mind, solving mysteries in the digital age with innovative coding techniques and interactive experiences."
         />
         <meta
           name="keywords"
@@ -32,15 +32,25 @@ function Hero() {
 
       <div className={styles.heroContent}>
         <h1 className={styles.title}>
-          Enter Baker Street: The Mind of a Modern Detective
+          <span className={styles.titleText}>
+            Enter Baker Street: The Mind of a Modern Detective
+          </span>
           <span className={styles.magnifyingGlassWrapper}>
             <FaSearch className={styles.magnifyingGlass} />
           </span>
-        </h1>        
-        <p className={styles.subtitle}> 
-  <span>Welcome to Arzu's world—a Developer, Blogger, and Creator</span> <br />
-  <span>on a relentless quest to solve the mysteries of code with precision and creativity.</span>
-</p>
+        </h1>
+
+        <p className={styles.subtitle}>
+          <span>
+            Welcome to Arzu's world
+            <RiCompass3Line className={styles.subtitleIcon} />
+          </span>
+          <br />
+          <em className={styles.italicLine}>
+            On a relentless quest to solve the mysteries of code with precision
+            and creativity.
+          </em>
+        </p>
       </div>
 
       <div className={styles.extraContent}>

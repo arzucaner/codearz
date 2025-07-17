@@ -4,40 +4,50 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: calc(100vh - 60px);  
+  min-height: calc(100vh - 60px);
   background: radial-gradient(circle, #444 30%, #222 90%);
   color: white;
   text-align: center;
   padding: 0;
-  margin: 0; 
+  margin: 0;
+  overflow-x: hidden;
 }
 
 .heroContent {
   z-index: 1;
   padding: 0 20px;
+  width: 100%;
+  max-width: 720px;
+  box-sizing: border-box;
 }
 
 .title {
-  font-size: 2rem; 
+  font-size: 2rem;
   color: #ffd966;
   margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  flex-wrap: nowrap;
+  text-align: center;
+  flex-shrink: 1;
+}
+
+.titleText {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; 
 }
 
 .magnifyingGlassWrapper {
-  margin-left: 10px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  position: relative;
 }
 
 .magnifyingGlass {
   color: #ffd966;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
@@ -48,14 +58,26 @@
 
 .subtitle {
   font-size: 1.2rem;
-  margin: 10px 0 0 0;
+  margin-top: 10px;
   color: #d4c5a6;
-  transition: color 0.3s ease, text-shadow 0.3s ease;  
+  line-height: 1.4;
+  word-break: break-word;
 }
 
-.subtitle:hover {
+.subtitleIcon {
   color: #ffd966;
-  text-shadow: 0 0 8px rgba(255, 217, 102, 0.8);
+  margin-left: 6px;
+  font-size: 1.1rem;
+  vertical-align: middle;
+}
+
+.italicLine {
+  display: inline-block;
+  font-style: italic;
+  color: #d4c5a6;
+  font-size: 1.1rem;
+  margin-top: 6px;
+  line-height: 1.4;
 }
 
 .extraContent {
@@ -64,7 +86,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px; 
+  gap: 20px;
+  width: 100%;
+  max-width: 720px;
+  box-sizing: border-box;
 }
 
 .shootingStar {
@@ -106,19 +131,37 @@
 
 @media screen and (max-width: 768px) {
   .title {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 
-  .magnifyingGlass {
-    font-size: 1.2rem;
+  .magnifyingGlassWrapper {
+    display: none;
   }
 
   .subtitle {
     font-size: 1rem;
   }
 
-  .extraContent {
-    gap: 15px;
+  .italicLine {
+    font-size: 0.95rem;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+  }
+
+  .italicLine {
+    font-size: 0.9rem;
+  }
+}
+
+
+
+
 

@@ -1,76 +1,118 @@
-.bookContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+.projectCard {
   background-color: #2e2e2e;
   border: 2px solid #ffd966;
-  border-radius: 8px;
-  padding: 20px;
-  margin-top: 30px;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 0px 0px 15px rgba(255, 217, 102, 0.4);
-}
-
-.bookImage {
-  width: 220px;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(255, 217, 102, 0.4);
-  margin-right: 20px;
-}
-
-.bookDetails {
-  flex: 1;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 30px auto;
+  max-width: 600px;
+  width: 90%; 
+  box-shadow: 0px 0px 14px rgba(255, 217, 102, 0.2);
+  color: #f0f0f0;
   text-align: left;
+  box-sizing: border-box;
 }
 
-.bookTitle {
-  font-size: 22px;
-  font-weight: bold;
+.projectTitle {
+  font-size: 20px;
   color: #ffd966;
-  margin-bottom: 10px;
-}
-
-.bookDescription {
-  font-size: 16px;
-  color: #d4c5a6;
-  margin-bottom: 20px;
-  max-width: 500px;
-}
-
-.buyButton {
-  display: inline-block;
-  background: #ffd966;
-  color: #2e2e2e;
-  padding: 10px 15px;
-  text-decoration: none;
   font-weight: bold;
-  border-radius: 4px;
-  transition: background 0.3s ease, transform 0.2s ease;
+  margin-bottom: 8px;
 }
 
-.buyButton:hover {
-  background: #d4c5a6;
+.projectSubtitle {
+  font-size: 14px;
+  color: #e6e6e6;
+  margin-bottom: 16px;
+}
+
+.projectDescription {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #ddd;
+  margin-bottom: 16px;
+}
+
+.featureList {
+  list-style: none;
+  padding-left: 0;
+  color: #f1e2b2;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.featureList li {
+  margin-bottom: 6px;
+}
+
+.buttonGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center; 
+  margin-bottom: 16px;
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+
+.viewButton {
+  display: flex;
+  align-items: center;
+  background-color: #ffd966;
+  color: #1f1f1f;
+  padding: 10px 14px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s ease, transform 0.2s ease;
+  font-size: 14px;
+  white-space: nowrap;
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.viewButton svg {
+  margin-right: 6px;
+  flex-shrink: 0;
+}
+
+.viewButton:hover {
+  background-color: #e6c957;
   transform: scale(1.05);
 }
 
+.imageWrapper {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.projectImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(255, 217, 102, 0.2);
+}
+
 @media (max-width: 768px) {
-  .bookContainer {
-      flex-direction: column;
-      text-align: center;
+  .projectCard {
+    padding: 14px;
+    width: 95%;
   }
 
-  .bookImage {
-      margin-right: 0;
-      margin-bottom: 15px;
+  .buttonGroup {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0 12px;
   }
 
-  .bookDetails {
-      text-align: center;
+  .viewButton {
+    width: 100%;
+    justify-content: center;
+    font-size: 13px;
+    padding: 10px;
   }
 }
+
+
 
   

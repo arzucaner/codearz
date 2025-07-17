@@ -1,68 +1,64 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+import { ExternalLink, PlayCircle, Github } from "lucide-react";
 import styles from "./Countdown.module.css";
-import bookCover from "../../assets/images/book-cover.png"; 
+import mindGardenImg from "../../assets/images/mind-garden-preview.png";
 
 function Countdown() {
-  const calculateTimeLeft = () => {
-    const launchDate = new Date("2023-12-31T00:00:00");
-    const difference = launchDate - new Date();
-    let timeLeft = {};
-
-    if (difference > 0) {
-      timeLeft = {
-        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-        hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
-        minutes: Math.floor((difference / 1000 / 60) % 60),
-        seconds: Math.floor((difference / 1000) % 60),
-      };
-    }
-    return timeLeft;
-  };
-
-  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setTimeLeft(calculateTimeLeft());
-    }, 1000);
-    return () => clearInterval(timer);
-  }, []);
-
   return (
-    <div className={styles.countdownContainer}>     
-      <div className={styles.timeContainer}>
-        {Object.keys(timeLeft).map((interval) => (
-          <div key={interval} className={styles.timeBlock}>
-            <span className={styles.number}>{timeLeft[interval]}</span>
-            <span className={styles.label}>{interval}</span>
-          </div>
-        ))}
-      </div>
+    <div className={styles.countdownContainer}>
+      <div className={styles.projectCard}>
+        <h2 className={styles.projectTitle}>
+          MindGarden: AI-Powered Mental Health Support Agents
+        </h2>
+        <p className={styles.projectSubtitle}>
+          🏆 Built during <strong>The Agent Development Kit Hackathon</strong>{" "}
+          with Google Cloud
+        </p>
 
-           <div className={styles.bookContainer}>
-        <img
-          src={bookCover}
-          alt="Ctrl + Alt + Delete Book Cover"
-          className={styles.bookImage}
-        />
-        <div className={styles.bookDetails}>
-          <h3 className={styles.bookTitle}>
-            Ctrl + Alt + Delete:
-            <p>How I Reset My Career and Rewrote My Future</p> 
-          </h3>
-          <p className={styles.bookDescription}>
-            <em>
-              Discover my journey of career transformation!
-            </em>
-          </p>
+        <p className={styles.projectDescription}>
+          We developed a modular AI-powered multi-agent system designed to
+          deliver scalable, real-time mental health support. From risk detection
+          to resource matching and peer support, <strong>MindGarden</strong>{" "}
+          operates with safety and care at its core.
+        </p>
+
+        <ul className={styles.featureList}>
+          <li>• Multi-agent architecture with task delegation</li>
+          <li>• Real-time triage and escalation protocol</li>
+          <li>• Peer support integration & resource recommendation</li>
+          <li>• Tech: TypeScript, React, Tailwind, Gemini AI</li>
+        </ul>
+
+        <div className={styles.buttonGroup}>
           <a
-            href="https://www.amazon.com/author/arzu.guney"
+            href="https://github.com/smart-stacks/mindgarden"
             target="_blank"
-            rel="noopener noreferrer"
-            className={styles.buyButton}
+            className={styles.viewButton}
           >
-            Get it on Kindle
+            <Github size={16} /> View on GitHub
           </a>
+          <a
+            href="https://mindgarden-app-6xntrakg7q-nw.a.run.app/chat"
+            target="_blank"
+            className={styles.viewButton}
+          >
+            <ExternalLink size={16} /> Live Demo
+          </a>
+          <a
+            href="https://youtu.be/z06tKmAMUYw"
+            target="_blank"
+            className={styles.viewButton}
+          >
+            <PlayCircle size={16} /> Watch Presentation
+          </a>
+        </div>
+
+        <div className={styles.imageWrapper}>
+          <img
+            src={mindGardenImg}
+            alt="Mind Garden Preview"
+            className={styles.projectImage}
+          />
         </div>
       </div>
     </div>
