@@ -45,7 +45,7 @@ function Countdown() {
             <ExternalLink size={16} /> Live Demo
           </a>
           <a
-            href="https://youtu.be/z06tKmAMUYw"
+            href="https://youtu.be/7wsr1mDZekg"
             target="_blank"
             className={styles.viewButton}
           >
