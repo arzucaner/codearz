@@ -53,11 +53,7 @@ function Hero() {
         </p>
       </div>
       <div className={styles.sectionHeader}>
-        <h2 className={styles.sectionTitle}> Lab Intelligence Updates</h2>
-        <p className={styles.sectionSubtitle}>
-          Explore the latest inventions and case support systems uncovered by
-          Arzu’s detective mind.
-        </p>
+        <h2 className={styles.sectionTitle}> Lab Intelligence Updates</h2>    
       </div>
 
       <div className={styles.extraContent}>
