@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/codearz/static/css/main.30fad088.css",
-    "main.js": "/codearz/static/js/main.ae54f0cc.js",
+    "main.js": "/codearz/static/js/main.dbc4b610.js",
     "static/media/whyYouWaiting.png": "/codearz/static/media/whyYouWaiting.a5d15956737df72c2ccf.png",
     "static/media/whenWomenUnderstandImage.png": "/codearz/static/media/whenWomenUnderstandImage.0da09cb8d1debe1134d0.png",
     "static/media/juniorPortfolio.png": "/codearz/static/media/juniorPortfolio.2af4773e47c85f634ee9.png",
@@ -12,6 +12,7 @@
     "static/media/startingJobImage.png": "/codearz/static/media/startingJobImage.a0b22987cee3fc461432.png",
     "static/media/2023SoftwareAdventureImage.png": "/codearz/static/media/2023SoftwareAdventureImage.2ce998101150e3c874bc.png",
     "static/media/developerSuitcaseImage.png": "/codearz/static/media/developerSuitcaseImage.f36f8ef43e01c92903d6.png",
+    "static/media/aboutMe.png": "/codearz/static/media/aboutMe.65a194e5122da41c8798.png",
     "static/media/watchTutorials.png": "/codearz/static/media/watchTutorials.626290a580b9b4fb385b.png",
     "static/media/aiDevCampNotesImage.png": "/codearz/static/media/aiDevCampNotesImage.0543c86c0bfe9228e78d.png",
     "static/media/mobileAppsImage.png": "/codearz/static/media/mobileAppsImage.262053d7c211b442663f.png",
@@ -38,10 +39,10 @@
     "static/media/accessibility-guide.png": "/codearz/static/media/accessibility-guide.c3ae312fb1befa2a3dee.png",
     "index.html": "/codearz/index.html",
     "main.30fad088.css.map": "/codearz/static/css/main.30fad088.css.map",
-    "main.ae54f0cc.js.map": "/codearz/static/js/main.ae54f0cc.js.map"
+    "main.dbc4b610.js.map": "/codearz/static/js/main.dbc4b610.js.map"
   },
   "entrypoints": [
     "static/css/main.30fad088.css",
-    "static/js/main.ae54f0cc.js"
+    "static/js/main.dbc4b610.js"
   ]
 }
