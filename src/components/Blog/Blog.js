@@ -20,9 +20,16 @@ import juniorPortfolyo from "../../assets/images/blog/juniorPortfolio.png";
 import watchTutorials from "../../assets/images/blog/watchTutorials.png";
 import whyYouStill from "../../assets/images/blog/whyYouStill.png";
 import whyYouWaiting from "../../assets/images/blog/whyYouWaiting.png";
+import aboutMe from "../../assets/images/blog/aboutMe.png";
 
 
 const blogs = [
+  {    
+    title: "Hi, I’m Arzu — Here’s a Bit About Me",
+    image: aboutMe,
+    readMoreLink:
+      "https://arzugny.medium.com/hi-im-arzu-here-s-a-bit-about-me-6fd7e129da52",
+  },
    {    
     title: "Why You’re Waiting for Permission to Build Something",
     image: whyYouWaiting,
