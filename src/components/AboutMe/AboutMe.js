@@ -21,7 +21,8 @@ function AboutMe() {
     "2024: Launched a knitting app (KnittMates) to promote mental health post-COVID.",
     "2025: Received the AI Visionary Award from the Frontend Queens Community.",
     "2025: Participated in AI Safety Hackathon and created Safeai Academy.",
-    "2025: Participated in and created Mind Garden: AI-Powered Multi-Agent.(with amazing team)",    
+    "2025: Participated in and created Mind Garden: AI-Powered Multi-Agent.(with amazing team)", 
+    "2025: Participated in and created BrainBloom: AI-Powered Multi-Agent.(with amazing team)",    
   ];
 
   return (
