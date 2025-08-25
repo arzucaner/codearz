@@ -21,9 +21,17 @@ import watchTutorials from "../../assets/images/blog/watchTutorials.png";
 import whyYouStill from "../../assets/images/blog/whyYouStill.png";
 import whyYouWaiting from "../../assets/images/blog/whyYouWaiting.png";
 import aboutMe from "../../assets/images/blog/aboutMe.png";
+import theRealStart from "../../assets/images/blog/theRealStart.png";
+
 
 
 const blogs = [
+  {    
+    title: "The Interview Isn’t the Finish Line — It’s the Real Start",
+    image: theRealStart,
+    readMoreLink:
+      "https://arzugny.medium.com/the-interview-isnt-the-finish-line-it-s-the-real-start-b6bb585c8b51",
+  },
   {    
     title: "Hi, I’m Arzu — Here’s a Bit About Me",
     image: aboutMe,
