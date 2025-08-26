@@ -22,10 +22,17 @@ import whyYouStill from "../../assets/images/blog/whyYouStill.png";
 import whyYouWaiting from "../../assets/images/blog/whyYouWaiting.png";
 import aboutMe from "../../assets/images/blog/aboutMe.png";
 import theRealStart from "../../assets/images/blog/theRealStart.png";
+import halfTheYear from "../../assets/images/blog/halfTheYear.png"
 
 
 
 const blogs = [
+  {    
+    title: "Highlights from the First Half of the Year",
+    image: halfTheYear,
+    readMoreLink:
+      "https://arzugny.medium.com/highlights-from-the-first-half-of-the-year-3e08c342b9c6",
+  },
   {    
     title: "The Interview Isn’t the Finish Line — It’s the Real Start",
     image: theRealStart,
