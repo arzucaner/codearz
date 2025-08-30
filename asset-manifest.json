@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/codearz/static/css/main.30fad088.css",
-    "main.js": "/codearz/static/js/main.7926b7d8.js",
+    "main.js": "/codearz/static/js/main.d95c28f9.js",
     "static/media/whyYouWaiting.png": "/codearz/static/media/whyYouWaiting.a5d15956737df72c2ccf.png",
     "static/media/whenWomenUnderstandImage.png": "/codearz/static/media/whenWomenUnderstandImage.0da09cb8d1debe1134d0.png",
     "static/media/juniorPortfolio.png": "/codearz/static/media/juniorPortfolio.2af4773e47c85f634ee9.png",
@@ -15,6 +15,7 @@
     "static/media/aboutMe.png": "/codearz/static/media/aboutMe.65a194e5122da41c8798.png",
     "static/media/watchTutorials.png": "/codearz/static/media/watchTutorials.626290a580b9b4fb385b.png",
     "static/media/aiDevCampNotesImage.png": "/codearz/static/media/aiDevCampNotesImage.0543c86c0bfe9228e78d.png",
+    "static/media/howDevelopers.png": "/codearz/static/media/howDevelopers.d0adec32fa3181e47e43.png",
     "static/media/mobileAppsImage.png": "/codearz/static/media/mobileAppsImage.262053d7c211b442663f.png",
     "static/media/goodnessOfNatureImage.png": "/codearz/static/media/goodnessOfNatureImage.07a43c3fe2202f2238d3.png",
     "static/media/halfTheYear.png": "/codearz/static/media/halfTheYear.ae08ea1fcfb1a3ea1174.png",
@@ -27,7 +28,6 @@
     "static/media/whyYouStill.png": "/codearz/static/media/whyYouStill.97aeeba34f4c18a01a35.png",
     "static/media/safeaiAcademyImage.png": "/codearz/static/media/safeaiAcademyImage.7d843f42db5b3be8b13e.png",
     "static/media/theRealStart.png": "/codearz/static/media/theRealStart.d7ef7a7d45abbb8d910b.png",
-    "static/media/theInterview.png": "/codearz/static/media/theInterview.9f30647fa16368836803.png",
     "static/media/knittmates.png": "/codearz/static/media/knittmates.43f1b3dc7c48a875cb41.png",
     "static/media/travelBrewImage.png": "/codearz/static/media/travelBrewImage.4e3eae4ba7641f2c95ec.png",
     "static/media/wwCodeImage.png": "/codearz/static/media/wwCodeImage.bb3acf759271f0c3e592.png",
@@ -42,10 +42,10 @@
     "static/media/accessibility-guide.png": "/codearz/static/media/accessibility-guide.c3ae312fb1befa2a3dee.png",
     "index.html": "/codearz/index.html",
     "main.30fad088.css.map": "/codearz/static/css/main.30fad088.css.map",
-    "main.7926b7d8.js.map": "/codearz/static/js/main.7926b7d8.js.map"
+    "main.d95c28f9.js.map": "/codearz/static/js/main.d95c28f9.js.map"
   },
   "entrypoints": [
     "static/css/main.30fad088.css",
-    "static/js/main.7926b7d8.js"
+    "static/js/main.d95c28f9.js"
   ]
 }
