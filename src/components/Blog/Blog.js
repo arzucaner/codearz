@@ -23,16 +23,16 @@ import whyYouWaiting from "../../assets/images/blog/whyYouWaiting.png";
 import aboutMe from "../../assets/images/blog/aboutMe.png";
 import theRealStart from "../../assets/images/blog/theRealStart.png";
 import halfTheYear from "../../assets/images/blog/halfTheYear.png";
-import theInterview from "../../assets/images/blog/theInterview.png";
+import howDevelopers from "../../assets/images/blog/howDevelopers.png";
 
 
 
 const blogs = [
   {    
-    title: "The Interview Isn’t the Finish Line — It’s the Real Start",
-    image: theInterview,
+    title: "How Developers Stay Focused During Summer",
+    image: howDevelopers,
     readMoreLink:
-      "https://arzugny.medium.com/the-interview-isnt-the-finish-line-it-s-the-real-start-b6bb585c8b51",
+      "https://arzugny.medium.com/how-developers-stay-focused-during-summer-b6e94e16df81",
   },
   {    
     title: "Highlights from the First Half of the Year",
