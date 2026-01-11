@@ -1,5 +1,5 @@
 import React from "react";
-import Countdown from "../Countdown/Countdown";
+import CVAssistant from "../CVAssistant/CVAssistant";
 import MiniGame from "../MiniGame/MiniGame";
 import { Helmet } from "react-helmet";
 import { FaSearch } from "react-icons/fa";
@@ -57,7 +57,7 @@ function Hero() {
       </div>
 
       <div className={styles.extraContent}>
-        <Countdown />
+        <CVAssistant />
         <MiniGame />
       </div>
     </div>

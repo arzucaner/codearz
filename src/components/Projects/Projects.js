@@ -13,8 +13,18 @@ import innoaiTS from "../../assets/images/projects/innoaiTS.png";
 import knittmates from "../../assets/images/projects/knittmates.png";
 import safeaiAcademyImage from "../../assets/images/projects/safeaiAcademyImage.png";
 import devprep from "../../assets/images/projects/devprep.png";
+import mindGardenImg from "../../assets/images/mind-garden-preview.png";
 
 const projects = [
+  {
+    title: "MindGarden: AI-Powered Mental Health Support Agents",
+    description:
+      "Built during The Agent Development Kit Hackathon with Google Cloud. A modular AI-powered multi-agent system designed to deliver scalable, real-time mental health support. From risk detection to resource matching and peer support, MindGarden operates with safety and care at its core.",
+    image: mindGardenImg,    
+    githubLink:"https://github.com/smart-stacks/mindgarden",
+    liveLink: "https://mindgarden-app-6xntrakg7q-nw.a.run.app/chat", 
+    videoLink: "https://youtu.be/7wsr1mDZekg"
+  },
   {
     title: "Devprep",
     description:
